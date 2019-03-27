@@ -13,12 +13,12 @@ They are not supposed to be state-of-the-art methods of dealing with data, but i
     - Others.
 
 2. Text Mining:
-  - Basic String Operations: concatenating, splitting, etc.;
-  - Text Cleaning: removing stop words, lemmatizing, etc.;
-  - Importing Texts into R: loading .txt and .pdfs, OCR;
-  - Building Data from Texts: time series of count of words, (un)supervised learning methods for data classification.
+    - Basic String Operations: concatenating, splitting, etc.;
+    - Text Cleaning: removing stop words, lemmatizing, etc.;
+    - Importing Texts into R: loading .txt and .pdfs, OCR;
+    - Building Data from Texts: time series of count of words, (un)supervised learning methods for data classification.
 
 3. Web Scraping:
-  - Basic ws: extracting text information from web pages;
-  - Filling out forms and retrieving information;
-  - Using API for efficient (and fast) data retrieving.
+    - Basic ws: extracting text information from web pages;
+    - Filling out forms and retrieving information;
+    - Using API for efficient (and fast) data retrieving.
