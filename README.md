@@ -7,10 +7,10 @@ They are not supposed to be state-of-the-art methods of dealing with data, but i
 ## Overview
 
 1. GIS Data
-  * Basics: vector and raster data, grids/fishnets, plotting geo-data;
-  * Reading GIS: importing shape files into R;
-  * GIS Operations: overlay, buffer zones, zonal statistics, calculating distances;
-  * Others.
+    - Basics: vector and raster data, grids/fishnets, plotting geo-data;
+    - Reading GIS: importing shape files into R;
+    - GIS Operations: overlay, buffer zones, zonal statistics, calculating distances;
+    - Others.
 
 2. Text Mining:
   - Basic String Operations: concatenating, splitting, etc.;
