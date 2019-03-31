@@ -8,7 +8,7 @@ They are not supposed to be state-of-the-art methods, but instead a summary of m
 
 ## Overview
 
-1. [GIS Data](#GIS-Data:)
+1. [GIS Data:](#gis-data)
     - Basics: vector and raster data, grids/fishnets, plotting geo-data;
     - Reading GIS: importing shape files into R, geocoding a dataset;
     - GIS Operations: overlay, buffer zones, zonal statistics, calculating distances.
