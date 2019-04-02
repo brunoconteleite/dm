@@ -53,7 +53,32 @@ library(rgdal)
 crs.geo <- CRS("+proj=longlat +ellps=WGS84 +datum=WGS84")
 ```
 
-Suppose we have a dataset of some cities, its coordinates and some further information.
+Suppose we have a dataset with the coordinates of some cities. This data is stored in the folder 'data/'. Let us load into R:
+
+```r
+load('data/citydata.rdata')
+> df
+city longitude  latitude
+1      Sao Paulo -46.63333 -23.55000
+2 Rio de Janeiro -43.19639 -22.90833
+3       Campinas -47.05722 -22.90083
+4 Angra dos Reis -44.31806 -23.00667
+5 Belo Horizonte -43.93333 -19.91667
+6       Curitiba -49.25000 -25.41667
+```
+
+To geocode and plot these cities in the latitude/longitude space, we use the convenient function `Spatial...()`, where `...` refer to the type of data you will be creating. To create a set of points with the coordinates of the cities, we use `SpatialPoints()`, whose inputs must be the coordinates *as a matrix*  as the CRS we previously created. To plot it, we just use the function `plot()`.
+
+```r
+spdf.points <- SpatialPoints(coords = as.matrix(df[,c('longitude', 'latitude')]), proj4string = crs.geo)
+# check type of data:
+class(spdf.points)
+[1] "SpatialPoints"
+attr(,"package")
+[1] "sp"
+```
+
+
 
 ## Text Mining:
 
