@@ -47,7 +47,7 @@ To create vector GIS data, you need to input its coordinates (and eventually the
 
 To set your CRS, use the function `CRS()`:
 
-```{r}
+```r
 install.packages('rgdal')   # do this only once
 library(rgdal)
 crs.geo <- CRS("+proj=longlat +ellps=WGS84 +datum=WGS84")
